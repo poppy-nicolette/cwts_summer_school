@@ -4,7 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Markmap</title>
+    <style>
+      :root
+      {
+        --box-side : min( 25vmin, 320px ) ;
+      }
+      
+      img
+      {
+        background : white ;
+        border : none ;
+        height : var( --box-side ) ;
+        object-fit : contain ;
+        width : var( --box-side ) ;
+      }
+    </style>
+    <title>BESS Research</title>
     <style>
       svg.markmap {
         width: 100%;
@@ -14,6 +29,9 @@
     <script src="https://cdn.jsdelivr.net/npm/markmap-autoloader@0.15.2"></script>
   </head>
   <body>
+    <h4>Poppy Riddle, Department of Information Science, QSS Lab</h4>
+    <h5>September 26, 2023 - At CWTS Summer School, Leiden Netherlands</h5>
+    <img align = "left" src="dal_logo.jpg" alt="dalhousie logo" style="height: 60%; image-rendering: pixelated;">
     <div class="markmap">
       <script type="text/template">
         ---
@@ -27,26 +45,23 @@
 
         ---
         
-        # Bibliometric-enhanced Exploratory search systems for education of ocean and climate sciences
+        # Bibliometric-enhanced exploratory search systems for education of ocean and climate sciences
 
         ## the context:
           - Canadian secondary and university educators
           - marginalized communities
           - coastal impacts of climate change
-
         ## the problem
-          ### part 1:
-            - the need to mitigate citation accumulation bias
-            - citations as proxies for other things, not just similarity
-            - citation-based decisions vs citation influences on behaviour
-
-          ### part 2:
-            - typical IR systems use both citation and popularity ranking
-            - List-based results encourage web behaviour : satisficing
-            - Our current discovery/IR systems are contributing to citation bias
-
+          ### part 1
+          -  the need to mitigate citation accumulation bias
+          - citations as proxies for other things, not just similarity
+          - citation-based decisions vs citation influences on behaviour
+        ### part 2
+        - typical IR systems use both citation and popularity ranking
+         - List-based results encourage web behaviour : satisficing
+         - Our current discovery/IR systems are contributing to citation bias
         ## the goal
-          - an ESS that aims to mitigate citation bias, connects disjointed education literature with ocean and climate literature relevant to their immediate community
+        - an ESS that aims to mitigate citation bias, connects disjointed education literature with ocean and climate literature relevant to their immediate community
 
 
    
